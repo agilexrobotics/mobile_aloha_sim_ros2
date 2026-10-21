@@ -876,7 +876,7 @@
         <parent link="fl_link6" />
         <child link="fl_link7" />
         <axis xyz="0 0 -1" />
-        <limit lower="0" upper="0.04" effort="10" velocity="1" />
+        <limit lower="0" upper="0.05" effort="10" velocity="1" />
     </joint>
 
     <link name="fl_link8">
@@ -914,7 +914,7 @@
         <parent link="fl_link6" />
         <child link="fl_link8" />
         <axis xyz="0 0 1" />
-        <limit lower="-0.04" upper="0" effort="10" velocity="1" />
+        <limit lower="-0.05" upper="0" effort="10" velocity="1" />
     </joint>
 
     <!--***************************** front-right ****************************** -->
@@ -1296,7 +1296,7 @@
         <parent link="fr_link6" />
         <child link="fr_link7" />
         <axis xyz="0 0 -1" />
-        <limit lower="0" upper="0.04" effort="10" velocity="1" />
+        <limit lower="0" upper="0.05" effort="10" velocity="1" />
     </joint>
 
     <link name="fr_link8">
@@ -1334,7 +1334,7 @@
         <parent link="fr_link6" />
         <child link="fr_link8" />
         <axis xyz="0 0 1" />
-        <limit lower="-0.04" upper="0" effort="10" velocity="1" />
+        <limit lower="-0.05" upper="0" effort="10" velocity="1" />
     </joint>
     <!--***************************** back-left ****************************** -->
     <link name="bl_base_link">
@@ -1637,7 +1637,7 @@
         <parent link="bl_link6" />
         <child link="bl_link7" />
         <axis xyz="0 0 -1" />
-        <limit lower="0" upper="0.04" effort="10" velocity="1" />
+        <limit lower="0" upper="0.05" effort="10" velocity="1" />
     </joint>
 
     <link name="bl_link8">
@@ -1675,7 +1675,7 @@
         <parent link="bl_link6" />
         <child link="bl_link8" />
         <axis xyz="0 0 1" />
-        <limit lower="-0.04" upper="0" effort="10" velocity="1" />
+        <limit lower="-0.05" upper="0" effort="10" velocity="1" />
     </joint>
     <!--***************************** back-right ****************************** -->
     <link name="br_base_link">
@@ -1978,7 +1978,7 @@
         <parent link="br_link6" />
         <child link="br_link7" />
         <axis xyz="0 0 -1" />
-        <limit lower="0" upper="0.04" effort="10" velocity="1" />
+        <limit lower="0" upper="0.05" effort="10" velocity="1" />
     </joint>
 
     <link name="br_link8">
@@ -2016,7 +2016,7 @@
         <parent link="br_link6" />
         <child link="br_link8" />
         <axis xyz="0 0 1" />
-        <limit lower="-0.04" upper="0" effort="10" velocity="1" />
+        <limit lower="-0.05" upper="0" effort="10" velocity="1" />
     </joint>
     
 </robot>
